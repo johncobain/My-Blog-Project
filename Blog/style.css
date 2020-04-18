@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Handlee', cursive;
+	font-size: 13pt;
+	padding: 10px;
+	margin:0;
+	background-color: #dfe6e9;
+}
+
+header{
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: url("img/header.jpg");
+    background-size: cover;
+}
+
+header img{
+    display: block;
+    width: 80px;
+    margin: auto;
+}
+
+header p{
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+h1 {
+    font-size: 15pt;
+    color: #55efc4;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span{
+    border: 4px dashed #636e72;
+    padding: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width:100%;
+    font-size: 11pt;
+}
+
+table, th, td{
+    border: 2px solid #b2bec3;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+td{
+    background-color: #00b894;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+}
+
+li{
+    margin: 0 0 15px 50px;
+    font-weight: bold;
+}
+
+progress{
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+form{
+    text-align: center;
+    margin-top: 0;
+}
+
+textarea{
+    height:100px;
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+footer {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+/*CLASS*/
+
+.img-circle{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.submit{
+    background-color: #55efc4;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+.submit :hover{
+    background-color: #43a09d;
+}
+
+
+/*IDS*/
+
+#contacts img{
+    height: 50px;
+    margin: 0 7px 0 7px;
+}
+
+#contacts a{
+    text-decoration: none;
+}
+
+#contacts img:hover{
+    opacity: 0.8;
+}
+
+#contacts{
+    text-align: center;
+}
